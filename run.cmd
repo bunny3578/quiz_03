@@ -1,6 +1,6 @@
 @echo off
 rem
-cd /c "%~dp0"
+cd /d "%~dp0"
 if not defined _OLD_VIRTUAL_PROMPT (
 	call env\Scripts\activate
 )
